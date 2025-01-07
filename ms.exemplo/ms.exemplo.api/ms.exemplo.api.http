@@ -1,0 +1,6 @@
+@ms.exemplo.api_HostAddress = http://localhost:5160
+
+GET {{ms.exemplo.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
