@@ -33,11 +33,11 @@ As camadas utilizadas são:
 Neste exemplo, estou utilizando comandos CLI para criar a estrutura apresentada. Abaixo estão os comandos e suas finalidades, dispostos na ordem de execução:
 
 1. Criar uma nova solução: **dotnet new sln**
-2. Em caso de API: **dotnet new webapi -o <nome-da-pasta>.API**
-3. Para as outras camadas: **dotnet new classlib -o <nome-da-pasta>.<camada>**
-4. Para a camada de testes, será utilizada a biblioteca própria para testes unitários: **dotnet new xunit -o <nome-da-pasta>.<camada>.tests**
-5. Adicionar a pasta na SolutionExplorer: **dotnet sln add <nome-da-pasta-camada> --solution-folder <nome-da-pasta-solution>**
-6. Adicionar referências nos projetos: **dotnet add <nome-da-pasta-que-receberá-a-referência> reference nome-da-pasta-que-será-rreferênciado>**
+2. Em caso de API: **dotnet new webapi -o nome-da-pasta.API**
+3. Para as outras camadas: **dotnet new classlib -o nome-da-pasta.camada**
+4. Para a camada de testes, será utilizada a biblioteca própria para testes unitários: **dotnet new xunit -o nome-da-pasta.camada.tests**
+5. Adicionar a pasta na SolutionExplorer: **dotnet sln add nome-da-pasta-camada --solution-folder nome-da-pasta-solution**
+6. Adicionar referências nos projetos: **dotnet add nome-da-pasta-que-receberá-a-referência reference nome-da-pasta-que-será-rreferênciado**
 
 ## Informações adicionais
 ### O que é SolutionExplorer?
